@@ -23,20 +23,17 @@
         }
         main {
             padding: 20px;
+            max-width: 700px;
+            margin: auto;
         }
         .screenshot {
             width: 200px;
             border-radius: 12px;
             margin: 15px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
-        .download-btn {
-            display: inline-block;
-            background-color: #E94E77;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
+        section {
+            margin: 30px 0;
         }
         footer {
             margin-top: 30px;
@@ -55,13 +52,25 @@
 </header>
 
 <main>
-    <h2>About the App</h2>
-    <p>QuoteNest is a simple and elegant app with 12 quotes across 3 categories — Life, Business, and Sports. Share quotes easily with friends and get inspired every day.</p>
+    <section>
+        <h2>About QuoteNest</h2>
+        <p>QuoteNest is a simple and beautiful app featuring 12 hand-picked quotes in three categories — Life, Business, and Sports. It’s designed to inspire, motivate, and bring knowledge into your day.</p>
+    </section>
 
-    <img src="screenshot.png" alt="QuoteNest App Screenshot" class="screenshot">
+    <section>
+        <h2>Features</h2>
+        <ul style="text-align:left; display:inline-block;">
+            <li>12 inspiring quotes</li>
+            <li>3 unique categories</li>
+            <li>Easy sharing with friends</li>
+            <li>Clean and minimal design</li>
+        </ul>
+    </section>
 
-    <br>
-    <a href="#" class="download-btn">Download Now</a>
+    <section>
+        <h2>App Preview</h2>
+        <img src="screenshot.png" alt="QuoteNest App Screenshot" class="screenshot">
+    </section>
 </main>
 
 <footer>
